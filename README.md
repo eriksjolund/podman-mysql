@@ -98,7 +98,7 @@ Run mysql
 3. optional: verify that the files in the directory _datadir_ are owned by your user and group
 ```
 $ find datadir | wc -l
-23
+186
 $ find datadir -not -user $(id -un)
 $ find datadir -not -group $(id -gn)
 ```
