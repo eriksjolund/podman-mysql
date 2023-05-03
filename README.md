@@ -21,7 +21,7 @@ in the container that should be mapped to your regular user.
    user:
    $
    ```
-   We see that the image has not set any User. This is often a hint
+   The User field in the image is not set. This is often a hint
    that the container image should be started as the container user __root__ (which is the default).
 4. `mkdir datadir`
 5. run the mysql container
